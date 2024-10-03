@@ -3,9 +3,10 @@ import pandas as pd
 import math
 from pathlib import Path
 
+
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
-    page_title='GDP dashboard',
+    page_title='BRUUUHHHH',
     page_icon=':earth_americas:', # This is an emoji shortcode. Could be a URL too.
 )
 
@@ -149,3 +150,7 @@ for i, country in enumerate(selected_countries):
             delta=growth,
             delta_color=delta_color
         )
+
+## tambahan
+title = st.text_input("Movie title", "Life of Brian")
+st.write("The current movie title is", title)
