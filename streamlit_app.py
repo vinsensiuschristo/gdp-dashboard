@@ -154,3 +154,7 @@ for i, country in enumerate(selected_countries):
 ## tambahan
 title = st.text_input("Movie title", "Life of Brian")
 st.write("The current movie title is", title)
+
+## tambahan
+tambahan = st.text_input("masukin nama boss","anatasya dyamaharani")
+st.write("testing", tambahan)
